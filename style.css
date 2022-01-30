@@ -61,11 +61,129 @@ p {
 	margin-bottom: 1rem;
 }
 
-main {
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	list-style: none;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Header */
+header {
+	height: 102px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.nav_container {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.nav_logo {
+	-webkit-flex: 0 0 16.6666666667%;
+	flex: 0 0 16.6666666667%;
+	max-width: 16.6666666667%;
+}
+
+.main_nav {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-end !important;
+	-webkit-flex: 0 0 83.3333333333%;
+	flex: 0 0 83.3333333333%;
+	max-width: 83.3333333333%;
+}
+
+.main_nav li {
+	padding-right: 40px;
+}
+
+.main_nav li:last-child {
+	padding-right: 0;
+}
+
+.main_nav a {
+	display: inline-block;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.main_nav a:hover {
+	text-decoration: none;
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+	cursor: pointer;
+}
+
+.main_nav a::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: -2px;
+	height: 2px;
+	background: #000;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.main_nav a:hover::before {
+	right: 0;
+}
+
+/* main {
 	max-width: 1140px;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: lightgreen;
+} */
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
 }
