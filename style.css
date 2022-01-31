@@ -88,6 +88,16 @@ a {
 	margin-left: auto;
 }
 
+.pl,
+.px-0 {
+	padding-left: 0 !important;
+}
+
+.pr,
+.px0 {
+	padding-right: 0 !important;
+}
+
 /* Header */
 header {
 	height: 102px;
@@ -108,8 +118,6 @@ header {
 	display: -webkit-flex;
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
-	padding-right: 0 !important;
-	padding-left: 0 !important;
 }
 
 .nav_logo {
@@ -193,4 +201,13 @@ footer {
 	.container {
 		max-width: 1140px;
 	}
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 768) {
+}
+
+@media (min-width: 576px) {
 }
