@@ -182,6 +182,13 @@ header {
 	background-color: lightgreen;
 } */
 
+/* Footer */
+footer {
+	background: #000;
+	color: #fff;
+	padding: 32px 15px;
+}
+
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1140px;
