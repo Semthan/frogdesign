@@ -282,6 +282,27 @@ header {
 	right: 0;
 }
 
+/* landing_page */
+.landing_page {
+	padding: 100px;
+}
+
+/* work section */
+.work_section {
+	padding: 100px;
+}
+
+/* bottom section */
+.bottom_section {
+	border-top: 2px solid #000;
+	padding-bottom: 24px;
+	margin-bottom: 64px;
+}
+
+.see_more {
+	padding: 48px 0 64px;
+}
+
 /* Footer */
 footer {
 	background: #000;
