@@ -352,7 +352,14 @@ header {
 
 /* work section */
 .work_section {
-	padding: 100px;
+	-webkit-animation-name: ContentFilter_fadeInUp__LINnJ;
+	animation-name: ContentFilter_fadeInUp__LINnJ;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
 }
 
 /* bottom section */
