@@ -284,7 +284,65 @@ header {
 
 /* landing_page */
 .landing_page {
-	padding: 100px;
+	padding: 48px 15px;
+}
+
+.landing_page_title {
+	margin-bottom: 32px;
+}
+
+.landing_page h1 {
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 24px;
+	-webkit-font-feature-settings: "ss03" on;
+	font-feature-settings: "ss03" on;
+	-webkit-animation-name: landing_page_fadeInUp;
+	animation-name: landing_page_fadeInUp;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.landing_page_h2 {
+	-webkit-animation-name: landing_page_fadeInUp;
+	animation-name: landing_page_fadeInUp;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.landing_page_h2 h2 {
+	font-family: Quarto Light, source-han-serif-sc, serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 48px;
+	-webkit-font-feature-settings: "ss03" on;
+	font-feature-settings: "ss03" on;
+}
+
+.landing_page_desc {
+	margin-top: 32px;
+	-webkit-animation-name: LandingPageHeaderModule_fadeInUp__riMpw;
+	animation-name: LandingPageHeaderModule_fadeInUp__riMpw;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 /* work section */
@@ -822,6 +880,31 @@ button {
 		max-width: 720px;
 	}
 
+	.landing_page {
+		padding: 104px 0 80px;
+	}
+
+	.landing_page_h2 h2 {
+		font-family: Quarto Light, source-han-serif-sc, serif;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 80px;
+		line-height: 80px;
+		-webkit-font-feature-settings: "ss03" on;
+		font-feature-settings: "ss03" on;
+	}
+
+	.landing_page_desc {
+		margin-top: 64px;
+		font-family: GT America, source-han-sans-simplified-c, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		-webkit-font-feature-settings: "ss03" on;
+		font-feature-settings: "ss03" on;
+	}
+
 	footer {
 		padding: 56px 0;
 	}
@@ -951,6 +1034,16 @@ button {
 @media (min-width: 992px) {
 	.container {
 		max-width: 960px;
+	}
+
+	.landing_page_h2 h2 {
+		font-family: Quarto Light, source-han-serif-sc, serif;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 96px;
+		line-height: 96px;
+		-webkit-font-feature-settings: "ss03" on;
+		font-feature-settings: "ss03" on;
 	}
 
 	footer {
