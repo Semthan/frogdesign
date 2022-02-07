@@ -212,6 +212,11 @@ header {
 	display: flex;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	background-color: #fff;
+}
+
+.hide_navbar {
+	display: none;
 }
 
 .nav_container {
