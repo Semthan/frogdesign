@@ -282,6 +282,11 @@ header {
 	right: 0;
 }
 
+.nav_space {
+	display: block;
+	height: 62px;
+}
+
 /* landing_page */
 .landing_page {
 	padding: 48px 15px;
@@ -878,6 +883,10 @@ button {
 @media (min-width: 768px) {
 	.container {
 		max-width: 720px;
+	}
+
+	.nav_space {
+		height: 102px;
 	}
 
 	.landing_page {
