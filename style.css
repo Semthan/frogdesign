@@ -330,8 +330,8 @@ header {
 
 .landing_page_desc {
 	margin-top: 32px;
-	-webkit-animation-name: LandingPageHeaderModule_fadeInUp__riMpw;
-	animation-name: LandingPageHeaderModule_fadeInUp__riMpw;
+	-webkit-animation-name: landing_page_fadeInUp;
+	animation-name: landing_page_fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -1121,6 +1121,22 @@ button {
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1140px;
+	}
+}
+
+@keyframes landing_page_fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(40px);
+		transform: translateY(40px);
+	}
+	50% {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
