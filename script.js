@@ -15,4 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     position = st;
   })
+
+  fetch("/cards.json")
+    .then(res => res.json())
+    .then((data) => {
+      for (let cards in data) {
+        console.log(data[cards])
+      }
+    })
+
 })
