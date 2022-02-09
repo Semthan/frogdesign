@@ -13,5 +13,50 @@ const dataList = [
     "title": "Innocor",
     "description": "Reset company strategy for a disrupted market",
     "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/10/20133727/21_Case-Study-Innocor.jpg"
-  }
+  },
+  {
+    "title": "Sesame",
+    "description": "Delivery, Designed by Restaurants",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/07/12161457/21_Case-Study-Sesame-01_thumbnail.jpg"
+  },
+  {
+    "title": "MeMed",
+    "description": "Revolutionizing Testing at the Point-of-Need",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/03/22120457/21-Marketing-Case-MeMed-Press-Release-Thumb-02.jpg"
+  },
+  {
+    "title": "Vyoh",
+    "description": "A Sustainable Solution for Indoor Air Pollution",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/02/04145333/Thumbnail_Vyoh.jpg"
+  },
+  {
+    "title": "Campfire",
+    "description": "Investing in the Future of Design Collaboration",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/03/09164225/Thumbnail_CAMPFIRE.jpg"
+  },
+  {
+    "title": "Companion",
+    "description": "Understanding Animals Through Technology",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/03/21071725/21-Marketing-Case-Companion-Desktop-01-1.jpg"
+  },
+  {
+    "title": "The Norwegian Sea Rescue Society",
+    "description": "Co-creating a Sustainability Strategy",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/08/23181412/21_Case-Study-Norwegian-01.png"
+  },
+  {
+    "title": "HealthHero",
+    "description": "Designing the Next Era of Telehealth for Europe",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/02/21103043/21_Marketing_Case_HealthHero-Hero-1.jpg"
+  },
+  {
+    "title": "Dispatch Goods",
+    "description": "Creating a brand to take down single-use takeout containers",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/11/21161826/DG-Thumbnail-1.jpg"
+  },
+  {
+    "title": "JustAir",
+    "description": "Designing a consumer air mask for pandemic times",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/11/21152714/Just-Air_HERO-scaled-3.jpg"
+  },
 ]
