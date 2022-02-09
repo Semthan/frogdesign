@@ -367,6 +367,50 @@ header {
 	animation-delay: 0.4s;
 }
 
+.works_container {
+	padding: 0;
+	-webkit-animation-name: WorkList_fadeInUp__2PtK7;
+	animation-name: WorkList_fadeInUp__2PtK7;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.case_cards {
+	display: flex;
+}
+
+.card {
+	width: 33.3333%;
+	max-width: 33.3333%;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 64px;
+}
+
+.cardImage_container {
+	height: 200px;
+	overflow: hidden;
+}
+
+.cardImage {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	transition: -webkit-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.cardImage:hover {
+	transform: scale(1.1);
+}
+
 /* bottom section */
 .bottom_section {
 	border-top: 2px solid #000;
@@ -429,6 +473,7 @@ header {
 	padding-right: 15px;
 	padding-left: 15px;
 }
+
 .design_card a > div {
 	height: 200px;
 	overflow: hidden;
