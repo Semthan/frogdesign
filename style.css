@@ -411,6 +411,37 @@ header {
 	transform: scale(1.1);
 }
 
+.load_more {
+	padding-top: 42px;
+	padding-bottom: 96px;
+	border-top: 1px solid #fff;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.load_more_btn {
+	border: 3px solid black;
+	background: #fff;
+	width: 170px;
+	height: 46px;
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-size: 22px;
+	line-height: 28px;
+	font-style: normal;
+	font-weight: 500;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	outline: none;
+}
+
 /* bottom section */
 .bottom_section {
 	border-top: 2px solid #000;

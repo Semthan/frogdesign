@@ -45,4 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
     content.appendChild(h5)
     content.appendChild(p)
   }
+
+  let workSection = document.getElementById('ws')
+  let btnContainer = document.createElement('div')
+  let button = document.createElement('button')
+
+  btnContainer.classList.add('load_more')
+  button.classList.add('load_more_btn')
+
+  button.innerText = 'Load More'
+
+  workSection.appendChild(btnContainer)
+  btnContainer.appendChild(button)
+
+  button.addEventListener('click', function () {
+    button.innerText = 'Loading..'
+  })
 })
