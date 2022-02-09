@@ -367,6 +367,85 @@ header {
 	animation-delay: 0.4s;
 }
 
+.filters_container {
+	width: 100%;
+}
+
+.filters_header {
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 42px;
+}
+
+.filters {
+	margin: 24px 0 80px;
+	padding: 10px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.sectors,
+.capabilities {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	background: none;
+	border: none;
+	cursor: pointer;
+
+	border: 2px solid #000;
+	padding: 10px 4px 10px 16px;
+	margin-right: 24px;
+}
+
+.filter_toggle_text {
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.sectors button,
+.capabilities button {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.dropdown_arrow {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+	background: transparent;
+	border: none;
+}
+
+.dropdown_box {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -75%) rotate(-45deg);
+	transform: translate(-50%, -75%) rotate(-45deg);
+
+	border: 1px solid #000;
+	border-top: none;
+	border-right: none;
+}
+
 .works_container {
 	padding: 0;
 	-webkit-animation-name: WorkList_fadeInUp__2PtK7;
