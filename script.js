@@ -63,17 +63,15 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   let sectors = document.getElementById('sectors_btn')
-  let sectorsDropdown = document.getElementById('sectors_dropdown')
+  let filtersDropdown = document.getElementById('filters_dropdown')
   let closed = true
   sectors.addEventListener('click', function () {
     if (closed) {
-      sectorsDropdown.classList.remove('hidden')
+      filtersDropdown.classList.remove('hidden')
       closed = false
-      console.log(closed)
     } else {
-      sectorsDropdown.classList.add('hidden')
+      filtersDropdown.classList.add('hidden')
       closed = true
     }
-
   })
 })
