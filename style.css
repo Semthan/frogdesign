@@ -215,7 +215,7 @@ header {
 	background-color: #fff;
 }
 
-.hide_navbar {
+.hidden {
 	display: none;
 }
 

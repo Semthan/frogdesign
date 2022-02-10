@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var st = window.pageYOffset || document.documentElement.scrollTop;
 
     if (st >= position) {
-      nav.classList.add("hide_navbar")
+      nav.classList.add("hidden")
     } else if (st < position) {
-      nav.classList.remove("hide_navbar")
+      nav.classList.remove("hidden")
     }
     position = st;
   })
@@ -60,5 +60,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   button.addEventListener('click', function () {
     button.innerText = 'Loading..'
+  })
+
+  let sectors = document.getElementById('sectors_btn')
+  let sectorsDropdown = document.getElementById('sectors_dropdown')
+  let closed = true
+  sectors.addEventListener('click', function () {
+    if (closed) {
+      sectorsDropdown.classList.remove('hidden')
+      closed = false
+      console.log(closed)
+    } else {
+      sectorsDropdown.classList.add('hidden')
+      closed = true
+    }
+
   })
 })
