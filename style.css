@@ -544,6 +544,36 @@ header {
 	outline: none;
 }
 
+.dropdown_list {
+	box-sizing: border-box;
+	padding: 36px 16px 0;
+	margin-bottom: 0;
+}
+
+.filter_item {
+	margin-bottom: 16px;
+	display: -webkit-flex;
+	display: flex;
+	cursor: pointer;
+	padding: 8px 20px 8px 12px;
+	border: 1px solid #fff;
+	margin-right: 16px;
+	-webkit-align-items: center;
+	align-items: center;
+	text-transform: capitalize;
+	font-family: GT America, source-han-sans-simplified-c, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.plus_icon {
+	padding-right: 12px;
+	width: 32px;
+	height: 32px;
+}
+
 .works_container {
 	padding: 0;
 	-webkit-animation-name: WorkList_fadeInUp__2PtK7;
