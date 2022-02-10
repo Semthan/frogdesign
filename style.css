@@ -355,7 +355,7 @@ header {
 	line-height: 22px;
 }
 
-/* work section */
+/* filters section */
 .filters_section {
 	width: 100%;
 	padding: 0;
@@ -572,6 +572,11 @@ header {
 	padding-right: 12px;
 	width: 32px;
 	height: 32px;
+}
+
+/* works section */
+.works_section {
+	padding: 0;
 }
 
 .works_container {
