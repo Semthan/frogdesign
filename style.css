@@ -326,8 +326,8 @@ header {
 	line-height: 24px;
 	-webkit-font-feature-settings: "ss03" on;
 	font-feature-settings: "ss03" on;
-	-webkit-animation-name: landing_page_fadeInUp;
-	animation-name: landing_page_fadeInUp;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -335,8 +335,8 @@ header {
 }
 
 .landing_page_h2 {
-	-webkit-animation-name: landing_page_fadeInUp;
-	animation-name: landing_page_fadeInUp;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -357,8 +357,8 @@ header {
 
 .landing_page_desc {
 	margin-top: 32px;
-	-webkit-animation-name: landing_page_fadeInUp;
-	animation-name: landing_page_fadeInUp;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -378,16 +378,16 @@ header {
 	padding: 0;
 }
 
-/* .filter_section {
-	-webkit-animation-name: ContentFilter_fadeInUp__LINnJ;
-	animation-name: ContentFilter_fadeInUp__LINnJ;
+.filters_section {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: backwards;
 	animation-fill-mode: backwards;
 	-webkit-animation-delay: 0.4s;
 	animation-delay: 0.4s;
-} */
+}
 
 .filters_container {
 	-webkit-animation-name: ContentFilter_fadeInUp__LINnJ;
@@ -598,8 +598,8 @@ header {
 
 .works_container {
 	padding: 0;
-	-webkit-animation-name: WorkList_fadeInUp__2PtK7;
-	animation-name: WorkList_fadeInUp__2PtK7;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
@@ -1450,7 +1450,7 @@ button {
 	}
 }
 
-@keyframes landing_page_fadeInUp {
+@keyframes fadeInUp {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(40px);
