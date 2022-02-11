@@ -63,14 +63,28 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   let sectors = document.getElementById('sectors_btn')
-  let filtersDropdown = document.getElementById('filters_dropdown')
+  let cap = document.getElementById('cap_btn')
+  let sectorsDropdown = document.getElementById('sectors_dropdown')
+  let capDropdown = document.getElementById('cap_dropdown')
   let closed = true
   sectors.addEventListener('click', function () {
     if (closed) {
-      filtersDropdown.classList.remove('hidden')
+      sectorsDropdown.classList.remove('hidden')
+      capDropdown.classList.add('hidden')
       closed = false
     } else {
-      filtersDropdown.classList.add('hidden')
+      sectorsDropdown.classList.add('hidden')
+      closed = true
+    }
+  })
+
+  cap.addEventListener('click', function () {
+    if (closed) {
+      capDropdown.classList.remove('hidden')
+      sectorsDropdown.classList.add('hidden')
+      closed = false
+    } else {
+      capDropdown.classList.add('hidden')
       closed = true
     }
   })
