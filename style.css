@@ -292,6 +292,23 @@ header {
 	height: 62px;
 }
 
+.back_to_top {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 52;
+}
+
+.back_to_top button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 0;
+	box-sizing: content-box;
+	border: none;
+	outline: none;
+}
+
 /* landing_page */
 .landing_page {
 	padding: 48px 15px;

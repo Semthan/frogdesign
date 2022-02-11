@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nav = document.getElementById('nav')
   var desc = document.getElementById('desc')
+  let backToTop = document.getElementById('btt')
 
   var position = desc.offsetTop - desc.offsetHeight
 
@@ -10,8 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (st >= position) {
       nav.classList.add("hidden")
-    } else if (st < position) {
+      backToTop.classList.remove('hidden')
+    }
+    if (st <= position) {
       nav.classList.remove("hidden")
+    }
+    if (st <= 100) {
+      backToTop.classList.add('hidden')
     }
     position = st;
   })
