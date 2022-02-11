@@ -16,10 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (st <= position) {
       nav.classList.remove("hidden")
     }
-    if (st <= 100) {
+    if (st <= 300) {
       backToTop.classList.add('hidden')
     }
     position = st;
+  })
+
+  backToTop.addEventListener('click', function () {
+    document.body.scrollTop = 0 //safari
+    document.documentElement.scrollTop = 0;
   })
 
   let caseCards = document.getElementById('caseCards')
