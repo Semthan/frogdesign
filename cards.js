@@ -1,4 +1,4 @@
-const dataList = [
+const CardsList = [
   {
     "title": "Made of Air",
     "description": "Activating the Made of Air Brand",
@@ -58,5 +58,23 @@ const dataList = [
     "title": "JustAir",
     "description": "Designing a consumer air mask for pandemic times",
     "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/11/21152714/Just-Air_HERO-scaled-3.jpg"
+  },
+]
+
+let moreCards = [
+  {
+    "title": "Fabric",
+    "description": "Your commerce site, your way",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/08/26224906/21_Case-Study-Fabric-01.png"
+  },
+  {
+    "title": "Ronald McDonald House Charities",
+    "description": "Redesign of Rmhc.org",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/08/24185923/21_Case-Study-Ronald-01.png"
+  },
+  {
+    "title": "STC",
+    "description": "Empowering Customers through a Best-in-Class Companion Experience with stc",
+    "image": "https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/10/21134906/hero-shot-8.jpg"
   },
 ]

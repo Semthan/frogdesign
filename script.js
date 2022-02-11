@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   let caseCards = document.getElementById('caseCards')
-  for (let i in dataList) {
+  for (let i in CardsList) {
     let card = document.createElement('div')
     let a = document.createElement('a')
     let div = document.createElement('div')
@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
     card.classList.add('card')
     div.classList.add('cardImage_container')
 
-    image.src = dataList[i].image
+    image.src = CardsList[i].image
     image.classList.add('cardImage')
 
     content.classList.add('design_card_content')
 
-    h5.innerText = dataList[i].title
-    p.innerText = dataList[i].description
+    h5.innerText = CardsList[i].title
+    p.innerText = CardsList[i].description
 
     caseCards.appendChild(card)
     card.appendChild(a)
