@@ -2,22 +2,22 @@ const CardsList = [
   {
     "title": "Made of Air",
     "description": "Activating the Made of Air Brand",
-    "image": "/img/card.jpg"
+    "image": "img/card.jpg"
   },
   {
     "title": "Ambu",
     "description": "Bringing Innovative Med-Tech to Market with Ambu",
-    "image": "/img/card1.png"
+    "image": "img/card1.png"
   },
   {
     "title": "Innocor",
     "description": "Reset company strategy for a disrupted market",
-    "image": "/img/card2.jpg"
+    "image": "img/card2.jpg"
   },
   {
     "title": "Sesame",
     "description": "Delivery, Designed by Restaurants",
-    "image": "/img/card3.jpg"
+    "image": "img/card3.jpg"
   },
   {
     "title": "MeMed",
@@ -27,37 +27,37 @@ const CardsList = [
   {
     "title": "Vyoh",
     "description": "A Sustainable Solution for Indoor Air Pollution",
-    "image": "/img/card5.jpg"
+    "image": "img/card5.jpg"
   },
   {
     "title": "Campfire",
     "description": "Investing in the Future of Design Collaboration",
-    "image": "/img/card6.jpg"
+    "image": "img/card6.jpg"
   },
   {
     "title": "Companion",
     "description": "Understanding Animals Through Technology",
-    "image": "/img/card7.jpg"
+    "image": "img/card7.jpg"
   },
   {
     "title": "The Norwegian Sea Rescue Society",
     "description": "Co-creating a Sustainability Strategy",
-    "image": "/img/card8.png"
+    "image": "img/card8.png"
   },
   {
     "title": "HealthHero",
     "description": "Designing the Next Era of Telehealth for Europe",
-    "image": "/img/card9.jpg"
+    "image": "img/card9.jpg"
   },
   {
     "title": "Dispatch Goods",
     "description": "Creating a brand to take down single-use takeout containers",
-    "image": "/img/card10.jpg"
+    "image": "img/card10.jpg"
   },
   {
     "title": "JustAir",
     "description": "Designing a consumer air mask for pandemic times",
-    "image": "/img/card11.jpg"
+    "image": "img/card11.jpg"
   },
 ]
 
