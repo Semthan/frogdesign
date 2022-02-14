@@ -22,7 +22,7 @@ const CardsList = [
   {
     "title": "MeMed",
     "description": "Revolutionizing Testing at the Point-of-Need",
-    "image": "/img/card4.jpg"
+    "image": "img/card4.jpg"
   },
   {
     "title": "Vyoh",
